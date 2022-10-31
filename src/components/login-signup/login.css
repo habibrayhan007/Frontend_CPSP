@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F243C;
+}
+.left-side{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login-form{
+    width: 100%;
+    color: #fff;
+}
+.remember-login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.devidor{
+    border-left: 5px solid green;
+    height: 500px;
+}
+
+.right-side{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-btn{
+    margin-bottom: 55px;
+}
+        
+@media screen and(max-width: 768px) {
+    .container{
+        background: rgb(56, 47, 79);
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}

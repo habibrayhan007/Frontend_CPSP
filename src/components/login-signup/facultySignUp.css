@@ -1,0 +1,18 @@
+.facultySignUp-Container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F243C;
+    padding: 40px;
+    
+}
+.faculty-registration{
+    color: #fff;
+    justify-content: center;
+  align-items: center;
+}
+.signup-btn{
+    display: flex;
+    justify-content: space-between;
+}
